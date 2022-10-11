@@ -8,4 +8,4 @@
 2. медиазапросы, относительные величины и вычисляемые значения - для корректного отображения страницы на экранах разных размеров - адаптивности страницы
 3. работа с векторными изображениями - для логотипа сайта  
 
-[Ссылка на GitHub Pages](https://lyubafrema.github.io/russian-travel/index.html)
+[Ссылка на GitHub Pages](https://lyubafrema.github.io/russian-travel/)
