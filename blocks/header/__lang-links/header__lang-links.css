@@ -1,0 +1,21 @@
+.header__lang-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, 30px);
+  align-content: center;
+  gap: 18px;
+}
+
+@media screen and (max-width: 630px) {
+  .header__lang-links {
+    grid-template-columns: repeat(2, 24px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-links {
+    grid-template-columns: repeat(2, 22px);
+  }
+}

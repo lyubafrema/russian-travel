@@ -1,0 +1,51 @@
+.place__image {
+  width: 460px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .place__image {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .place__image {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .place__image {
+    width: 260px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .place__image {
+    width: 210px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .place__image {
+    width: 190px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+    width: 320px;
+  }
+}
