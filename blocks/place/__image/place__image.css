@@ -1,10 +1,18 @@
 .place__image {
+  margin: 0;
+  padding: 0;
   width: 460px;
 }
 
 @media screen and (max-width: 1024px) {
   .place__image {
     width: 440px;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .place__image {
+    width: 400px;
   }
 }
 
@@ -16,31 +24,37 @@
 
 @media screen and (max-width: 630px) {
   .place__image {
-    width: 330px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .place__image {
     width: 320px;
   }
 }
 
-@media screen and (max-width: 574px) {
+@media screen and (max-width: 610px) {
+  .place__image {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 595px) {
   .place__image {
     width: 260px;
+  }
+}
+
+@media screen and (max-width: 587px) {
+  .place__image {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .place__image {
+    width: 230px;
   }
 }
 
 @media screen and (max-width: 515px) {
   .place__image {
     width: 210px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .place__image {
-    width: 190px;
   }
 }
 

@@ -1,6 +1,6 @@
 .footer__copyright {
   margin: 0;
-  padding: 0;
+  padding: 94px 0 24px 0;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -8,9 +8,9 @@
   text-align: right;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 768px) {
   .footer__copyright {
-    font-size: 14px;
+    padding-top: 90px;
   }
 }
 
@@ -20,16 +20,16 @@
   }
 }
 
-@media screen and (max-width: 574px) {
+@media screen and (max-width: 590px) {
   .footer__copyright {
-    font-size: 18px;
+    font-size: 14px;
+    line-height: 1;
     text-align: left;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
-    font-size: 14px;
     line-height: 1;
     text-align: left;
   }

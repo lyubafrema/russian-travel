@@ -1,6 +1,7 @@
 .photo-grid {
-  margin: 0 auto;
-  width: calc(100% - 48px*2);
+  max-width: calc(1280px - 2*48px);
+  margin: 0 48px;
+  padding: 0;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
@@ -9,25 +10,23 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
+    max-width: calc(100% - 2*48px);
     gap: 0.875rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    width: calc(100% - 24px*2);
-  }
-}
-
-@media screen and (max-width: 630px) {
-  .photo-grid {
-    width: calc(100% - 16px*2);
+    max-width: calc(100% - 2*24px);
+    margin: 0 24px;
+    gap: 1rem;
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    width: calc(100% - 16px*2);
+    max-width: 288px;
+    margin: 0 16px;
     gap: 0.75rem;
   }
 }

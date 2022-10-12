@@ -1,16 +1,11 @@
 .cover {
   position: relative;
-  width: calc(100% - 48px*2);
+  max-width: 1184px;
   aspect-ratio: 1 / 0.625;
   margin: 0 auto;
+  padding: 0;
   background-image: url(../../images/cover.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover {
-    width: 100%;
-  }
 }
