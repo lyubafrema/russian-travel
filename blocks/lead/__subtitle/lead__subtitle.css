@@ -20,20 +20,19 @@
 
 @media screen and (max-width: 630px) {
   .lead__subtitle {
+    max-width: calc(100% - 48px*2);
     font-size: 24px;
   }
 }
 
 @media screen and (max-width: 560px) {
   .lead__subtitle {
-    max-width: calc(100% - 48px*2);
     font-size: 22px;
   }
 }
 
 @media screen and (max-width: 460px) {
   .lead__subtitle {
-    max-width: calc(100% - 24px*2);
     font-size: 20px;
   }
 }

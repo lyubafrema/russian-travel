@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 648px) {
   .footer__copyright {
     font-size: 12px;
   }
@@ -25,12 +25,6 @@
     font-size: 14px;
     line-height: 1;
     text-align: left;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .footer__copyright {
-    line-height: 1;
-    text-align: left;
+    padding-top: 16px;
   }
 }

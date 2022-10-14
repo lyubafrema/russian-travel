@@ -1,4 +1,6 @@
 .footer__link {
+  display: inline-block;
+  max-width: fit-content;
   text-decoration: none;
   color: #FFFFFF;
   padding: 0;
@@ -20,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 648px) {
   .footer__link {
     font-size: 12px;
   }
@@ -28,7 +30,6 @@
 
 @media screen and (max-width: 590px) {
   .footer__link {
-    display: block;
     font-size: 20px;
     line-height: 1;
     margin: 0 0 32px 0;
@@ -37,9 +38,6 @@
 
 @media screen and (max-width: 320px) {
   .footer__link {
-    display: block;
     font-size: 24px;
-    line-height: 1;
-    margin: 0 0 32px 0;
   }
 }

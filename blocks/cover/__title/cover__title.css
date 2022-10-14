@@ -8,6 +8,7 @@
   line-height: 1.06;
   text-align: center;
   text-rendering: optimizeLegibility;
+  z-index: 1;
 }
 
 @media screen and (max-width: 630px) {
@@ -34,6 +35,5 @@
     font-size: 32px;
     line-height: 1.09;
     margin: 0 auto 16px auto;
-    padding: 0 35px;
   }
 }
